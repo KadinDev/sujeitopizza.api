@@ -81,3 +81,7 @@ yarn add @types/multer -D
 16 - após o 15 confira se o nome DATABASE_URL é o mesmo que vc colocou no .env do projeto
 
     17 - AGORA SÓ DAR DEPLOY BRANCH 
+    
+    
+OBS:  e em DATABASE CREDENTIALS(VIEW CREDENTIALS) eu posso acessar meu banco no postgres, só pegar as informações 
+e conectar com o Heroku no postgres instalado no meu pc

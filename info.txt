@@ -1,0 +1,71 @@
+yarn init -y
+
+yarn add typescript -D
+yarn add express
+yarn add @types/express -D
+
+* cria o tsconfig.json
+yarn tsc --init
+
+* para rodar a aplicação, e reload automatico
+yarn add ts-node-dev -D
+
+* biblioteca para tratar erros, por exemplo login errado e tal
+yarn add express-async-errors
+
+* para qualquer ip conseguir acessar meu back end
+yarn add cors
+yarn add @types/cors -D
+
+
+* * * * * * ** * *  * * * ** 
+Instalei tbm o Beekeeper Studio
+ele serve só pra facilitar a visualização do nosso banco de dados
+
+Utilizando o Prisma
+* https://www.prisma.io/docs/getting-started/quickstart
+
+1 - Add to existing project
+2 - Relational databases - Utilizei o Postgres
+3 - yarn add prisma
+4 - Install Prisma Client - yarn add @prisma/client
+
+5 - npx prisma init - Inicializar a configuração do PRISMA
+
+
+****** * ** * ** ** *** * ** ** ** ** 
+****** * ** * ** ** *** * ** ** ** ** 
+-- LIB para criptografar SENHAS
+yarn add bcryptjs
+yarn add @types/bcryptjs -D
+
+-- para criat TOKEN
+yarn add jsonwebtoken
+yarn add @types/jsonwebtoken -D
+
+https://www.md5hashgenerator.com/ <- gerar uma senha criptografada
+https://jwt.io/ <- para ver seu token descriptografado
+****** * ** * ** ** *** * ** ** ** ** 
+****** * ** * ** ** *** * ** ** ** ** 
+
+-- para acessar nossas variaveis de ambiente
+yarn add dotenv
+
+
+-- para trabalhar com envio de imagens
+yarn add multer
+yarn add @types/multer -D
+
+
+****** * ** * ** ** *** * ** ** ** ** 
+    DEPLOY BACK END + DB NO HEROKU
+
+1 - no arquivo .env coloca: PORT=3333
+2 - no server.ts coloca: process.env.PORT (no lugar de 3333)
+3 - no tsconfig.json coloca: "outDir": "./dist
+4 - no package.json em scripts colocar: "build": "tsc --build", e o "start": "node dist/server.js"
+5 - criei o arquivo Procfile na raiz do projeto, para o Heroku entender as instruções que eu passar dentro desse arquivo
+6 - roda: yarn build
+7 - roda em produção para testar: yarn start
+8 -
+9 -

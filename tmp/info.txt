@@ -1,0 +1,2 @@
+tmp = temporário (nome dessa pasta)
+aqui ficarão as fotos

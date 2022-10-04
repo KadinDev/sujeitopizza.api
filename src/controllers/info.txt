@@ -1,0 +1,4 @@
+Onde chamamos as requisições.
+ele vai chamar os services, as funcionalidades do DB
+
+

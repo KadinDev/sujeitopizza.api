@@ -58,7 +58,7 @@ yarn add @types/multer -D
 
 
 ****** * ** * ** ** *** * ** ** ** ** 
-    DEPLOY BACK END + DB NO HEROKU
+   DEPLOY BACK END + DB NO HEROKU
 
 1 - no arquivo .env coloca: PORT=3333
 2 - no server.ts coloca: process.env.PORT (no lugar de 3333)
@@ -68,4 +68,16 @@ yarn add @types/multer -D
 6 - roda: yarn build
 7 - roda em produção para testar: yarn start
 8 - mandar tudo para o git
-9 - 
+9 - Cria o projeto no Heroku, conecta com o git
+
+10 - Agora antes de dar Deploy Branch vai em Settings, e em Reveal Config Vars
+11 - em Reveal Config Vars, coloca suas variaveis de ambiente, o que vc fez no arquivo .env na raiz desse projeto
+
+    CRIAR BANCO DE DADOS NO HEROKU
+12 - vai em Resources e em Add-ons pesquise por Heroku Postgres, escolha se sera Free ou pago. e crie. 
+13 - após criar CLICA nele, e abrirá uma nova aba para pegar os dados do seu banco que vc fez no projeto
+14 - CLICA em Settings dele, e em seguida CLICA em DATABASE CREDENTIALS(VIEW CREDENTIALS)
+15 - em seguida pega a URI para colocar na variavel de ambiente. (item 10 acima)
+16 - após o 15 confira se o nome DATABASE_URL é o mesmo que vc colocou no .env do projeto
+
+    17 - AGORA SÓ DAR DEPLOY BRANCH 

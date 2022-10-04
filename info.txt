@@ -81,3 +81,4 @@ yarn add @types/multer -D
 16 - após o 15 confira se o nome DATABASE_URL é o mesmo que vc colocou no .env do projeto
 
     17 - AGORA SÓ DAR DEPLOY BRANCH
+

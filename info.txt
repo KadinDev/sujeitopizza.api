@@ -67,5 +67,5 @@ yarn add @types/multer -D
 5 - criei o arquivo Procfile na raiz do projeto, para o Heroku entender as instruções que eu passar dentro desse arquivo
 6 - roda: yarn build
 7 - roda em produção para testar: yarn start
-8 -
-9 -
+8 - mandar tudo para o git
+9 - 

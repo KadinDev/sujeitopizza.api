@@ -17,7 +17,7 @@ class FinishedOrderService {
             }
         })
 
-        return { order }
+        return order
     }
 }
 

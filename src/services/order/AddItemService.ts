@@ -18,7 +18,7 @@ class AddItemService {
             }
         })
 
-        return { order }
+        return order
     }
 }
 

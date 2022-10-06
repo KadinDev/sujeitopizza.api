@@ -10,7 +10,7 @@ class ListAllCategoryService{
             }
         })
         
-        return {category}
+        return category
     }
 }
 

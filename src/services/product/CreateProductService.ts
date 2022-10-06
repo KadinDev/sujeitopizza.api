@@ -21,7 +21,7 @@ class CreateProductService {
             }
         })
 
-        return { createProduct }
+        return createProduct 
     }
 }
 

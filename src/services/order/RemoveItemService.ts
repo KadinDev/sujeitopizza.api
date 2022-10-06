@@ -12,7 +12,7 @@ class RemoveItemService {
             }
         })
 
-        return { order }
+        return order
     }
 }
 

@@ -21,7 +21,7 @@ class CreateCategoryService {
             }
         })
 
-        return {category}
+        return category
     }
 }
 

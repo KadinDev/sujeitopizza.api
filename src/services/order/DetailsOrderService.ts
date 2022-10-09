@@ -19,7 +19,7 @@ class DetailsOrderService {
             }
         })
 
-        return {orderDetail}
+        return orderDetail
     }
 }
 

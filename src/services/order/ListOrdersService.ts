@@ -12,7 +12,7 @@ class ListOrdersService {
             }
         })
 
-        return { orders }
+        return orders
     }
 }
 

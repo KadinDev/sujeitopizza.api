@@ -17,7 +17,7 @@ class SendOrderService {
             }
         })
 
-        return { order }
+        return order
     }
 }
 

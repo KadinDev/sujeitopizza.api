@@ -15,7 +15,7 @@ class CreateOrderService {
             }
         })
         
-        return {order}
+        return order
     }
 }
 

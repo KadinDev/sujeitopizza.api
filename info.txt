@@ -58,7 +58,7 @@ yarn add @types/multer -D
 
 
 ****** * ** * ** ** *** * ** ** ** ** 
-    DEPLOY BACK END + DB NO HEROKU
+   DEPLOY BACK END + DB NO HEROKU
 
 1 - no arquivo .env coloca: PORT=3333
 2 - no server.ts coloca: process.env.PORT (no lugar de 3333)
@@ -80,5 +80,11 @@ yarn add @types/multer -D
 15 - em seguida pega a URI para colocar na variavel de ambiente. (item 10 acima)
 16 - após o 15 confira se o nome DATABASE_URL é o mesmo que vc colocou no .env do projeto
 
+<<<<<<< HEAD
     17 - AGORA SÓ DAR DEPLOY BRANCH
+=======
+    17 - AGORA SÓ DAR DEPLOY BRANCH 
+    
+    
+>>>>>>> 0e9baa5f55b409ee5a029d10b8269b0f75908c77
 
